@@ -1,0 +1,17 @@
+{
+  "name": "cordova-performance-test-harness",
+  "version": "0.0.1",
+  "description": "cordova-performance-test-harness",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/martin-naumann/cordova-performance-test-harness.git"
+  },
+  "author": "Martin Naumann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/martin-naumann/cordova-performance-test-harness/issues"
+  },
+  "dependencies": {
+    "cordova": "2.9.0"
+  }
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            var theBigBang = new Date().getTime();
+            window.tStart = NaN;
+        </script>
+        <script type="text/javascript" src="cordova.js"></script>        
+        <script type="text/javascript">
+            document.addEventListener('deviceready', function() {
+                alert(new Date().getTime() - theBigBang);
+                
+                window.tStart = new Date().getTime();
+                var blub = document.createElement("script");
+                blub.type = "text/javascript";
+                blub.src = "js/angular.min.js";
+                                
+                document.getElementsByTagName("body")[0].appendChild(blub);
+
+            }, false);
+        </script>
+    </body>
+</html>
