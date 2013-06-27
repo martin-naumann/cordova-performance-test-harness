@@ -16,4 +16,4 @@ to create a new build.
 
 To install on your Android device, run
 
-    $ adb install platforms/android/bin/HelloCordova-debug.apk
+    $ adb install platforms/android/bin/PerformanceHarness-debug.apk
